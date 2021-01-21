@@ -12,11 +12,11 @@
 
 bool heating = false;
 const char* server = "api.thingspeak.com";
-unsigned long mySensorsChannelNumber = 424400;            //Replase this code with your thingSpeak channel ID
-unsigned long myCommandsChannelNumber = 424424;           //Replase this code with your thingSpeak channel ID
+unsigned long mySensorsChannelNumber = 11111;            //Replase this code with your thingSpeak channel ID
+unsigned long myCommandsChannelNumber = 1111;           //Replase this code with your thingSpeak channel ID
 
-const char * myWriteAPIKey_sensors = "H1WQ9PHH1W0L1BTR";  //Replace with your channel Write Key
-const char * myWriteAPIKey_commands = "MOMBYC34QSZE7A1F"; //Replace with your channel Write Key. This key is not used in this example
+const char * myWriteAPIKey_sensors = "11111";  //Replace with your channel Write Key
+const char * myWriteAPIKey_commands = "11111"; //Replace with your channel Write Key. This key is not used in this example
                                                           //Use this key from android device  
 const long utcOffsetInSeconds = 7200; // UTC+2
 const char* MY_SSID = "leChateau"; 
